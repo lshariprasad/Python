@@ -62,3 +62,14 @@ plt.title("Line Graph Example")
 plt.xlabel("X Axis")
 plt.ylabel("Y Axis")
 plt.show()
+
+import matplotlib.pyplot as plt
+
+languages = ["Python", "Java", "C", "C++"]
+popularity = [90, 70, 60, 65]
+
+plt.bar(languages, popularity)
+plt.title("Programming Language Popularity")
+plt.xlabel("Language")
+plt.ylabel("Popularity")
+plt.show()

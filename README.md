@@ -73,3 +73,45 @@ plt.title("Programming Language Popularity")
 plt.xlabel("Language")
 plt.ylabel("Popularity")
 plt.show()
+
+import matplotlib.pyplot as plt
+
+labels = ["Python", "Java", "C", "Others"]
+sizes = [45, 25, 20, 10]
+
+plt.pie(sizes, labels=labels, autopct="%1.1f%%", startangle=140)
+plt.title("Technology Usage Distribution")
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+data = np.random.randn(1000)
+
+plt.hist(data, bins=30)
+plt.title("Histogram Example")
+plt.xlabel("Values")
+plt.ylabel("Frequency")
+plt.show()
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
+data = np.random.rand(5, 5)
+
+sns.heatmap(data, annot=True)
+plt.title("Heatmap Example")
+plt.show()
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.random.rand(50)
+y = np.random.rand(50)
+
+plt.scatter(x, y)
+plt.title("Scatter Plot Example")
+plt.xlabel("X Values")
+plt.ylabel("Y Values")
+plt.show()

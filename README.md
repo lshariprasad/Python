@@ -37,3 +37,28 @@ It’s designed to help learners understand the **core logic, structure, and pow
 3. Run the file using the command:  
    ```bash
    python filename.py
+
+## 📊 Python Graphs & Data Visualization
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Data%20Visualization-Python-00FFFF?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Graphs-Matplotlib-00FFFF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Analysis-Seaborn-00FFFF?style=for-the-badge"/>
+</p>
+
+> 📈 Turning data into insight using Python graphs.
+
+---
+
+### 📈 Line Graph
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 40]
+
+plt.plot(x, y)
+plt.title("Line Graph Example")
+plt.xlabel("X Axis")
+plt.ylabel("Y Axis")
+plt.show()
